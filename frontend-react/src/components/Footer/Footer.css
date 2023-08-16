@@ -1,0 +1,23 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Outfit;
+}
+
+.footer {
+    background-color: #6c5216;
+    color: #252947;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    gap: 2rem;
+    padding: 0 1rem;
+    height: 200px;
+    position: absolute;
+    width: 100%;
+}
