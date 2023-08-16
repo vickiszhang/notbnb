@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit);
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Outfit;
+}
+
+.login-container{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    margin-top: 140px;
+    
+}
+
+.navbar{
+    margin-top: 0;
+    height: 100px;
+}
+
+.input-login {
+    margin-bottom: 10px; /* Adjust the value to set the desired spacing between the input fields */
+}
+
+.button-login{
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-color: #F16B52;
+    background: #F16B52;
+    font-family: Outfit;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.form-control{
+    width: 264px;
+    height: 36px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: rgba(217, 217, 217, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+input {
+    padding: 12px;
+}
+
+.register-texts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+.register-texts h1, .register-texts a {
+    padding: 0 4px; 
+}
+
+h2{
+    color: #000;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+
+.register-link {
+    color: #000;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none; 
+}
+.register-link:hover {
+    text-decoration: underline; 
+} 
