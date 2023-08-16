@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit);
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Outfit;
+}
+
+.nav-home {
+    background-color: #FFEBBE;
+    color: #252947;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    gap: 2rem;
+    padding: 0 1rem;
+    height: 486px;
+    position: absolute;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.site-title {
+    font-size: 48px;
+}
+.nav-home a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.nav-options {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+}
+.nav-home li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-home li.active {
+    background-color: #FFF4DB;
+}
+
+.nav-options a{
+    position: relative;
+}
+.nav-options a::before{
+    content: "";
+    position: absolute;
+    transition: .3s; 
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: black;
+    transition: 0.3s;
+
+}
+
+.nav-options a:hover::before{
+    width: 100%
+
+}
+
+.nav-home h1 {
+    font-size: 96px;
+    font-weight: bold;
+    line-height: normal;
+    margin-left: 80px;
+    margin-top: 80px;
+    transition: 0.3s;
+
+}
+
+.header-text h1:hover{
+    text-decoration: underline solid #252947;
+    transition: 0.3s;
+    text-decoration-color: #252947;
+    width: 100%;
+}
+
+.header-text h1{
+    max-width: 800px;
+    position: relative;
+    text-decoration: underline solid transparent;
+
+}
